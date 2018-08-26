@@ -1,10 +1,24 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
+
+
 
 import './Navigation.css';
 
-class Navigation extends Component {
-  render() {
 
+
+
+
+class Navigation extends Component {
+
+    componentDidMount = () => {
+        $(document).ready(function(){
+            $(".navigation").slideUp(1).delay(500).slideDown('slow');
+        });
+    }
+
+
+  render() {
     const sections = ['Home', 'About', 'Portfolio', 'Contact'];
     const navLinks = sections.map(section => {
         return (

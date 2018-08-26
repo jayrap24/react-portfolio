@@ -1,0 +1,87 @@
+.containerAbout{
+  background: rgb(245, 245, 245);
+  padding: 40px;
+}
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    height: 100%;
+    
+  }
+  
+  .flex-item-about {
+    padding: 10px;
+    width: 340px;
+    height: 600px;
+    margin-top: 10px;
+    color: rgb(53, 53, 53);
+    overflow: hidden;
+    
+  }
+
+  .aboutMe {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-weight: 200;
+    letter-spacing: 6px;
+}
+
+.aboutMe:after {
+  content: '';
+  background: black;
+  width: 120px;
+  height: 2px;
+  display: block;
+  margin: auto;
+  margin-top:10px;
+}
+
+span{
+  font-size: 5em;
+  float: left;
+  padding: 5px;
+  font-weight: 100;
+}
+
+p{
+  font-size: 1.1em;
+  font-weight: 100;
+  padding: 8px;
+  letter-spacing: .10em;
+  line-height: 30px;
+}
+
+
+
+li i{
+  background: red;
+}
+
+.dual-col h2{
+  padding: 10px;
+  margin: 10px;
+}
+
+.w3-progress-container{
+  background: lightgrey;
+  border-radius: 50px;
+}
+
+.w3-progressbar{
+  height: 10px;
+  width: 90%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}

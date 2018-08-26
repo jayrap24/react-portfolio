@@ -1,6 +1,8 @@
 
+
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -14,11 +16,8 @@ ul {
   list-style: none;
 }
 
-
-h2,
-h3,
-a {
-	color: #34495e;
+.logo a{
+	color: rgb(2, 248, 166)
 }
 
 a {
@@ -33,7 +32,7 @@ a {
 }
 
 .main-nav {
-	margin-top: 5px;
+	margin-top: 0;
 
 }
 .logo a,
@@ -45,8 +44,9 @@ a {
 }
 
 .main-nav a {
-	color: #34495e;
-	font-size: .99em;
+	color: white;
+	font-size: .94em;
+	font-weight: 100;
 }
 
 .main-nav a:hover {
@@ -56,25 +56,24 @@ a {
 
 
 .navigation {
-	padding-top: .5em;
-	padding-bottom: .5em;
-	border: 1px solid #a2a2a2;
-	background-color: #f4f4f4;
+	
+	background-color: rgb(30, 30, 30);
 	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	
+	
+
 }
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 480px) {
 	.navigation,
 	.main-nav {
 		display: flex;
+
 	}
 	.navigation {
 		flex-direction: column;
@@ -83,7 +82,7 @@ a {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 720px) {
 	.navigation {
 		flex-direction: row;
 		justify-content: space-between;
