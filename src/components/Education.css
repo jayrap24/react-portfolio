@@ -1,0 +1,43 @@
+.containerEducation{
+    background: white;
+    padding: 60px;
+}
+
+.education {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+.education:after {
+  content: '';
+  background: black;
+  width: 120px;
+  height: 2px;
+  display: block;
+  margin: auto;
+  margin-top:10px;
+}
+
+.school{
+    font-size:15px;
+   
+
+}
+
+.school p{
+    color: rgb(24, 24, 24);
+}
+
+.school h2{
+    color: rgb(88, 88, 88);
+    font-weight: 700;
+}
+
+li{
+    width:50%;
+}

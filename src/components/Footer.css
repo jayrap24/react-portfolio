@@ -1,0 +1,15 @@
+footer{
+    height: 200px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+footer h5{
+    font-size: 16px;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 60px;
+    font-weight: 200;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import Icon from 'react-fa';
+
+
 
 
 import './About.css';
 
-class Navigation extends Component {
+class About extends Component {
   constructor(){
     super();
     this.state = {name: "Hi"}
@@ -12,7 +13,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="containerAbout">
-        <h2 className="myProjects">ABOUT</h2>
+        <h2 className="aboutMe">ABOUT</h2>
           <ul className="flex-container">
               <li className="flex-item-about" id="aboutItem">
               
@@ -25,43 +26,43 @@ class Navigation extends Component {
                         <div className="dual-col">
                             <h2>HTML</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="htmlBar"></div>
                             </div>
                         </div>
                         <div className="dual-col">
                             <h2>CSS</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="cssBar"></div>
                             </div>
                         </div>
                         <div className="dual-col">
                             <h2>JAVASCRIPT</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="javascriptBar"></div>
                             </div>
                         </div>
                         <div className="dual-col">
                             <h2>REACT</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="reactBar"></div>
                             </div>
                         </div>
                         <div className="dual-col">
                             <h2>NODE.JS</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="nodeBar"></div>
                             </div>
                         </div>
                         <div className="dual-col">
                             <h2>JQUERY</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="jqueryBar"></div>
                             </div>
                         </div>
                         <div className="dual-col">
                             <h2>REST API</h2>
                             <div className="w3-progress-container">
-                                <div className="w3-progressbar"></div>
+                                <div className="w3-progressbar" id="restBar"></div>
                             </div>
                         </div>
                 </div>
@@ -75,6 +76,6 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default About;
 
 

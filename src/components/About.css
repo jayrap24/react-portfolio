@@ -66,9 +66,7 @@ p{
 
 
 
-li i{
-  background: red;
-}
+
 
 .dual-col h2{
   padding: 10px;
@@ -83,5 +81,47 @@ li i{
 .w3-progressbar{
   height: 10px;
   width: 90%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#htmlBar{
+  height: 10px;
+  width: 90%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#cssBar{
+  height: 10px;
+  width: 90%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#javascriptBar{
+  height: 10px;
+  width: 80%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#reactBar{
+  height: 10px;
+  width: 75%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#nodeBar{
+  height: 10px;
+  width: 70%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#jqueryBar{
+  height: 10px;
+  width: 90%;
+  background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
+}
+
+#restBar{
+  height: 10px;
+  width: 70%;
   background: linear-gradient(to right, rgb(59, 59, 59) 300px ,lightgrey );
 }

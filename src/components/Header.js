@@ -18,7 +18,7 @@ class Header extends Component {
             <header className="header">
                 <div className="containerHeader">
                     <h1 className="headerName">{this.props.Name}</h1>
-                    <span className="headerPhrase">Full Stack Developer, Student, etc.</span>
+                    <span className="headerPhrase">{this.props.Phrase}</span>
                 </div>
             </header>
         );

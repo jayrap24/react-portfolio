@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 //import App from './App';
-import Navigation from './Navigation';
-import Header from './Header';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Footer from './Footer';
-import registerServiceWorker from './registerServiceWorker';
+import Navigation from './components/Navigation';
+import Header from './components/Header';
+import About from './components/About';
+import Education from './components/Education';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import registerServiceWorker from './components/registerServiceWorker';
 
 
 
@@ -19,11 +20,12 @@ class App extends Component{
         return (
             <div>
           
-                <Navigation LogoTitle = "JR"/>
-                <Header Name ="Jesper Rapouw" />
+                <Navigation logoTitle = {"JR"} />
+                <Header Name ={"Jesper Arie Rapouw"} Phrase={"Full Stack Developer, Student, etc."} />
                 <About />
+                <Education />
                 <Portfolio />
-                <Contact />
+                <Contact id="Contact" />
                 <Footer />
                
             </div>
