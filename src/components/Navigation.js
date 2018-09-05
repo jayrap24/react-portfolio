@@ -1,28 +1,53 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import PropTypes from 'prop-types';
+
 
 import './Navigation.css';
 
 
 class Navigation extends Component {
     componentDidMount = () => {
-        $(document).ready(function(){
             $(".navigation").slideUp(1).delay(500).slideDown('slow');
-        });
+            
+            $(".logo").click(function() {
+                window.location.reload();
+            });
+
+            $("#Home").click(function() {
+                window.location.reload();
+            });
+
+            $("#About").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#aboutComponent").offset().top
+                }, 2000);
+            });
+            $("#Portfolio").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#portfolioComponent").offset().top
+                }, 2000);
+            });
+            $("#Contact").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#contactComponent").offset().top
+                }, 2000);
+            });
+
     }
 
   render() {
     const sections = ['Home', 'About', 'Portfolio', 'Contact'];
-    const navLinks = sections.map(section => {
+
+    const navLinks = sections.map((section, index) => {
         return (
-            <li><a href={"/" } id={section}>{section}</a></li>
+            <li key={index}><a id={section}>{section}</a></li>
         )
     });
+
         return (
-            <nav class="navigation">
-                <h1 class="logo"><a href="#">{this.props.logoTitle}</a></h1>
-                    <ul class="main-nav">
+            <nav className="navigation">
+                <h1 className="logo"><a>{this.props.logoTitle}</a></h1>
+                    <ul className="main-nav">
                         {navLinks}
                     </ul>
             </nav> 

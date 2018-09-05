@@ -2,6 +2,7 @@
 .containerPortfolio{
   background-color: rgb(30, 30, 30);
     padding: 40px;
+  
 
 }
 
@@ -23,25 +24,24 @@
   }
   
   .flex-item {
-    background: #16f7ac;
-    padding: 10px;
-    width: 320px;
-    height: 360px;
+    background: rgb(17, 17, 17);
+    padding: 20px;
+    width: 300px;
+    height: 340px;
     margin-top: 10px;
     line-height: 150px;
     color: white;
     font-weight: 100;
     font-size: 2.5em;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-family: sans-serif;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   .myPortfolio {
     position: relative;
     padding-bottom: 20px;
-   
     text-align: center;
     font-weight: 200;
     letter-spacing: 6px;
@@ -59,14 +59,28 @@
 }
 
 .websiteContainer{
-  height: 250px;
-  margin: 20px;
+  height: 300px;
+  z-index: 0;
   margin-top:-20px;
   margin-bottom: 0;
   word-wrap: break-word;
   font-size: .5em;
+  font-weight: 600;
+  color: #ececec;
+  line-height: 60px;
+}
+
+.websiteContainer h2{
+  font-size: 1em;
+  display: inline-block;
+  color: #a7a7a7;
+ 
+}
+.websiteContainer p{
+  font-size: .5em;
+  line-height: 16px;
   font-weight: 100;
-  background: rgb(30, 30, 30);;
+  color: #585757;
 }
 
 
@@ -75,7 +89,8 @@
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 10px;
+  margin-top: -50px;
+  
 
 }
 
@@ -96,17 +111,16 @@
   margin: 0;
   padding: 10px;
   display: none;
-  background-color: rgb(209, 208, 208);
+  background-color: rgb(17, 17, 17);
   height: 100%;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 
 .websiteInfo p{
-  display: none;
+  display: inline-block ;
   font-weight: 100;
-  line-height: 20px;
-  color: black;
+  line-height: 10px;
+  color: white;
 }
 
 .githubCode{
@@ -114,7 +128,7 @@
   width: 50%;
   text-decoration: none;
   color: rgb(48, 47, 47);
-  font-size: 25px;
+  font-size: 20px;
   margin-top: -40px;
   display: none;
  
@@ -125,7 +139,7 @@
 .demo{
   float: right;
   width: 50%;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: -40px;
   display: none;
 
@@ -134,4 +148,5 @@
 .githubCode a, .demo a{
   color: rgb(46, 46, 46);
   font-weight: 400;
+  
 }

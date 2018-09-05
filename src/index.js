@@ -25,7 +25,7 @@ class App extends Component{
                 <About />
                 <Education />
                 <Portfolio />
-                <Contact id="Contact" />
+                <Contact />
                 <Footer />
                
             </div>

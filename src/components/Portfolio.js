@@ -57,50 +57,57 @@ class Portfolio extends Component {
     }
 );
 
-
-
         });
     }
 
 
   render() {
     return (
-        <div className = "containerPortfolio">
+        <div className = "containerPortfolio" id="portfolioComponent">
         <h2 className="myPortfolio">MY PROJECTS</h2>
             <ul className="flex-container">
                 <li className="flex-item" id="firstFlex">
                     <div className="websiteContainer" id="firstWebsiteContainer"> 
-                        MONEY EXCHANGE
+                       <h2> MONEYXCHANGE</h2>
+                       <p> A web application that lets users exchange their currency to their desired country. I fetched an API from Fixer.io that l provides my web application with the current exchange rates for a variety of countries.</p>
                         <div className="websiteImage" id="firstImage"></div>
                     </div>
+
                     <div className="websiteInfo" id="firstWebsiteInfo">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>JAVASCRIPT</p>
+                        <p>HTML5</p>
+                        <p>CSS</p>
+                        <p>JQUERY</p>
                         <div className="githubCode"> 
-                            <a href="#">GITHUB</a>
+                            <a href="https://github.com/jayrap24/currency-converter">GITHUB</a>
                         </div>
                         <div className="demo">
-                            <a href="#">DEMO</a>
+                            <a href="https://jayrap24.github.io/currency-converter/">DEMO</a>
                         </div>
                     </div>
                 </li>
                 <li className="flex-item" id="secondFlex">
                 <div className="websiteContainer" id="secondWebsiteContainer"> 
-                        BANK SCHEDULE
+                       <h2> SCHEDULEX</h2>
+                       <p>A web application for JPMorgan Chase Bank employees that helps Managers find bank employees that are willing to work extra hours, and it allows employees to find banks that are offering extra hours.</p>
                         <div className="websiteImage" id="secondImage"></div>
                     </div>
                     <div className="websiteInfo" id="secondWebsiteInfo">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        <p>JAVASCRIPT</p>
+                        <p>HTML5</p>
+                        <p>CSS</p>
+                        <p>JQUERY</p>
                         <div className="githubCode"> 
-                            <a href="#">GITHUB</a>
+                            <a href="https://github.com/jayrap24/chase-bank-schedule-tool">GITHUB</a>
                         </div>
                         <div className="demo">
-                            <a href="#">DEMO</a>
+                            <a href="https://whispering-headland-62710.herokuapp.com/homepage">DEMO</a>
                         </div>
                     </div>
                 </li>
                 <li className="flex-item" id="thirdFlex">
                 <div className="websiteContainer" id="thirdWebsiteContainer"> 
-                        MILLIONAIRE
+                        <h2>WHOWANT$</h2>
                         <div className="websiteImage" id="thirdImage"></div>
                     </div>
                     <div className="websiteInfo" id="thirdWebsiteInfo">
@@ -113,21 +120,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </li>
-                <li className="flex-item" id="thirdFlex">
-                <div className="websiteContainer" id="thirdWebsiteContainer"> 
-                        MILLIONAIRE
-                        <div className="websiteImage" id="thirdImage"></div>
-                    </div>
-                    <div className="websiteInfo" id="thirdWebsiteInfo">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                        <div className="githubCode"> 
-                            <a href="#">GITHUB</a>
-                        </div>
-                        <div className="demo">
-                            <a href="#">DEMO</a>
-                        </div>
-                    </div>
-                </li>
+               
             </ul>
         </div>
     );

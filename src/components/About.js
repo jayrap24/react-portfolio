@@ -12,13 +12,13 @@ class About extends Component {
   }
   render() {
     return (
-      <div className="containerAbout">
+      <div className="containerAbout" id="aboutComponent">
         <h2 className="aboutMe">ABOUT</h2>
           <ul className="flex-container">
               <li className="flex-item-about" id="aboutItem">
               
               <span>{this.state.name}</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <p>My name is Jesper. I graduated from the University of Southern California (USC) with a Bachelor in 2012. I am currently attending a Full Stack Web Development Code Bootcamp at Thinkful. For last two years I have delved into numerous languages to build web applications that I find interesting. </p>
               </li>
               <li className="flex-item-about">
               <div className="content">
